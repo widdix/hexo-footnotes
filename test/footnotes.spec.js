@@ -13,7 +13,7 @@ describe('footnotes', function() {
       '<ol>' +
       '<li id="fn:1">' +
       '1. basic footnote content' +
-      '<a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div>'
+      ' <a href="#fnref:1" rev="footnote">↩</a></li></ol></div>'
     );
   });
 
@@ -26,7 +26,7 @@ describe('footnotes', function() {
       '<ol>' +
       '<li id="fn:13">' +
       '13. basic footnote content' +
-      '<a href="#fnref:13" rev="footnote"> ↩</a></li></ol></div>'
+      ' <a href="#fnref:13" rev="footnote">↩</a></li></ol></div>'
     );
   });
 
@@ -39,7 +39,7 @@ describe('footnotes', function() {
       '<ol>' +
       '<li id="fn:2">' +
       '2. friend' +
-      '<a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div>'
+      ' <a href="#fnref:2" rev="footnote">↩</a></li></ol></div>'
     );
   });
 
@@ -52,7 +52,7 @@ describe('footnotes', function() {
       '<ol>' +
       '<li id="fn:13">' +
       '13. basic footnote <a href="http://example.com">content</a>' +
-      '<a href="#fnref:13" rev="footnote"> ↩</a></li></ol></div>'
+      ' <a href="#fnref:13" rev="footnote">↩</a></li></ol></div>'
     );
   });
 });
