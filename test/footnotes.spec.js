@@ -10,16 +10,10 @@ describe('footnotes', function() {
       'hey buddy<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, it\'s a test ' +
       '<div id="footnotes">' +
       '<hr>' +
-      '<div id="footnotelist">' +
-      '<ol style="list-style:none; padding-left: 0;">' +
+      '<ol>' +
       '<li id="fn:1">' +
-      '<span style="display: inline-block; vertical-align: top; padding-right: 10px;">' +
-      '1.' +
-      '</span>' +
-      '<span style="display: inline-block; vertical-align: top;">' +
-      'basic footnote content' +
-      '</span>' +
-      '<a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>'
+      '1. basic footnote content' +
+      '<a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div>'
     );
   });
 
@@ -29,16 +23,10 @@ describe('footnotes', function() {
       'hey buddy<sup id="fnref:13"><a href="#fn:13" rel="footnote">13</a></sup>, it\'s a test ' +
       '<div id="footnotes">' +
       '<hr>' +
-      '<div id="footnotelist">' +
-      '<ol style="list-style:none; padding-left: 0;">' +
+      '<ol>' +
       '<li id="fn:13">' +
-      '<span style="display: inline-block; vertical-align: top; padding-right: 10px;">' +
-      '13.' +
-      '</span>' +
-      '<span style="display: inline-block; vertical-align: top;">' +
-      'basic footnote content' +
-      '</span>' +
-      '<a href="#fnref:13" rev="footnote"> ↩</a></li></ol></div></div>'
+      '13. basic footnote content' +
+      '<a href="#fnref:13" rev="footnote"> ↩</a></li></ol></div>'
     );
   });
 
@@ -48,16 +36,10 @@ describe('footnotes', function() {
       'hey buddy<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, it\'s a test' +
       '<div id="footnotes">' +
       '<hr>' +
-      '<div id="footnotelist">' +
-      '<ol style="list-style:none; padding-left: 0;">' +
+      '<ol>' +
       '<li id="fn:2">' +
-      '<span style="display: inline-block; vertical-align: top; padding-right: 10px;">' +
-      '2.' +
-      '</span>' +
-      '<span style="display: inline-block; vertical-align: top;">' +
-      'friend' +
-      '</span>' +
-      '<a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>'
+      '2. friend' +
+      '<a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div>'
     );
   });
 
@@ -67,16 +49,10 @@ describe('footnotes', function() {
       'hey buddy<sup id="fnref:13"><a href="#fn:13" rel="footnote">13</a></sup>, it\'s a test ' +
       '<div id="footnotes">' +
       '<hr>' +
-      '<div id="footnotelist">' +
-      '<ol style="list-style:none; padding-left: 0;">' +
+      '<ol>' +
       '<li id="fn:13">' +
-      '<span style="display: inline-block; vertical-align: top; padding-right: 10px;">' +
-      '13.' +
-      '</span>' +
-      '<span style="display: inline-block; vertical-align: top;">' +
-      'basic footnote <a href="http://example.com">content</a>' +
-      '</span>' +
-      '<a href="#fnref:13" rev="footnote"> ↩</a></li></ol></div></div>'
+      '13. basic footnote <a href="http://example.com">content</a>' +
+      '<a href="#fnref:13" rev="footnote"> ↩</a></li></ol></div>'
     );
   });
 });
